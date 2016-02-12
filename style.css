@@ -2,11 +2,74 @@
 This is how you comment in CSS
 */
 
-body {
-  background-color: #ebe3c3;
+#main {
+  width: 450px;
+  float: left;
+}
+
+#sidebar {
+  width: 250px;
+  height: 650px;
+  float: right;
+  border-left: 2px solid #ccc;
+  padding-left: 15px;
+  background-color: #f2f2f2;
+}
+
+#container {
+  width: 750px;
+  height: 750px;
+  margin: 0 auto;
+}
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav li {
+  float: left;
+}
+
+#nav a:link, #nav a:visited {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px 0;
+  color: #fff;
+  background-color: #ff9933;
+  display: block;
+  width: 187.5px;
+}
+
+#nav a:hover, #nav a:active {
+  background-color: #e67300;
+}
+
+h1 {
+  font-size: 50px;
+  padding-top: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #3366cc;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #3366cc;
 }
 
 p {
-  color: #666666;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.picture {
+  width: 400px;
+  float: left;
+  margin-right: 5px;
+  border-style: none;
 }
